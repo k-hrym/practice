@@ -1,0 +1,118 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+header{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+.headline{
+	padding:20px 0;
+	font-size:32px;
+}
+.list{
+	text-align:center;
+	border-top:1px solid #848282;
+	border-bottom:1px solid #848282;
+}
+.list-menu{
+	list-style: none;
+	display: inline-block;
+	padding:15px 20px;
+}
+.main{
+	margin:50px auto;
+	width:800px;
+}
+.green-1{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#e6ffe9
+}
+.green-2{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#cbffd3
+}
+.green-3{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#aeffbd
+}
+.green-4{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#93ffab
+}
+.yellow-1{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#f3ffd8
+}
+.yellow-2{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#edffbe
+}
+.yellow-3{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#e9ffa5
+}
+.yellow-4{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#e4ff8d
+}
+.blue-1{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#d9e5ff
+}
+.blue-2{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#bad3ff
+}
+.blue-3{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#a4c6ff
+}
+.blue-4{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#8eb8ff
+}
+footer{
+	width:100%;
+	height:120px;
+	text-align:center;
+	background-color:#848282;
+}
+.footer-text{
+	color:white;
+	line-height: 120px;
+}
