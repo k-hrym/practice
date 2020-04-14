@@ -1,0 +1,90 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.list{
+	width:960px;
+	margin:50px auto;
+}
+
+.list-item{
+	padding:20px;
+	list-style:none;
+}
+
+.list-item:nth-child(odd){
+	background-color:#eeeeee;
+}
+
+.boxes{
+	width:960px;
+	margin:0 auto 50px auto;
+}
+
+.box-color{
+	height:200px;
+	width:30%;
+	margin-bottom:40px;
+}
+
+.box-color:nth-child(1){
+	background-color:orange;
+	float:left;
+}
+
+.box-color:nth-child(2){
+	background-color:#FFDB00;
+	float:left;
+	margin:0 5%;
+}
+
+
+.box-color:nth-child(3){
+	background-color:#FFDB00;
+	float:left;
+}
+
+
+.box-color:nth-child(4){
+	background-color:#FFDB00;
+	float:left;
+}
+
+.box-color:nth-child(5){
+	background-color:orange;
+	float:left;
+	margin:0 5%;
+}
+
+.box-color:nth-child(6){
+	background-color:#FFDB00;
+	float:left;
+}
+
+.box-color:nth-child(7){
+	background-color:#FFDB00;
+	float:left;
+	margin-bottom:0;
+}
+
+.box-color:nth-child(8){
+	background-color:#FFDB00;
+	float:left;
+	margin:0 5%;
+	margin-bottom:0;
+}
+
+.box-color:nth-child(9){
+	background-color:orange;
+	float:left;
+	margin-bottom:0;
+}
